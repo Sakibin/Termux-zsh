@@ -14,7 +14,7 @@ if [ -n "${T_APP_VERSION}" ] || [ -n "${T_APK_RELEASE}" ]; then
 	nl="\n"
 fi
 # Welcome message
-echo -e "\e[0;32m$(toilet -t -f smslant -F crop Termux)\033[0m
+echo -e "\e[0;32m$(toilet -t -f smslant -F crop Sakibin)\033[0m
 ${T_APP_VERSION} ${T_APK_RELEASE}${nl}
 \e[0;32mWorking with packages\033[0m:
   Search:  pkg search <query>
